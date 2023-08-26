@@ -1,0 +1,257 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet"> */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #0e0909;
+    padding: 20px;
+   
+}
+
+/* Navbar Styles */
+.navbar {
+    height:83px;
+    width: 1327px;
+    
+
+    
+    
+    align-items: center;
+    background-color: #191D20;
+
+
+    padding: 20px 30px;
+   flex-direction: row-reverse;
+    position: fixed;
+    left:370px;
+    right:10px;
+}
+.nav-button1{
+    /* padding: 8px 25px;
+    border-radius: 5px;
+    background-color: orangered;
+    position: absolute;
+    right:200px */
+    /* margin-right: 80px; */
+    width: 176px;
+    height: 46px;
+    position: absolute;
+    top:33px;
+    left:900px;
+    border-radius: 5px;
+    background-color: orangered
+    
+   
+}
+.nav-button{
+    
+    width: 176px;
+    height: 46px;
+    position: absolute;
+    top:33px;
+    left:1100px;
+    border-radius: 5px;
+    background-color: orangered;
+   
+}
+from.fa-regular{
+    position: absolute;
+    left:20px;
+    
+}
+.search-bar{
+    width:812px;
+    height:46px;
+    position: absolute;
+    top:1px;
+    left: -1272px;
+    margin-left: 10px;
+    
+    
+    border-radius: 5px;
+    background-color: #272A30;
+   
+    color:#737070;
+    
+}
+.log>img{
+    width:20;
+    height:34px;
+    position: absolute;
+    
+    top:1px;
+    left:-1297px;
+    background-color: #191D20;
+;
+
+}
+
+
+.log{
+    width:48px;
+    height: 48px;
+    position: absolute;
+    top:30px;
+    left:1310px;
+}
+.sidebar{
+    width:401px;
+    height:1117px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* text-align: center; */
+    position: relative;
+    left:20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    position: relative;
+    left:-30px;
+    margin-bottom: 60px;
+   
+}
+.h4{
+    margin-bottom: 20px;
+}
+h4{
+   
+    position: absolute;
+    color: orangered;
+    left:130px;
+    top:340px;
+    margin: 4px;
+    text-align: center;
+    
+}
+h2{
+    color: #ffffff;
+}
+
+.sidebar-links{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 30px;
+}
+.sidebar-logo{
+    width:298px;
+    height: 298px;
+    position: relative;
+    top:32px;
+    left: 10px;
+}
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      padding: 10px;
+    }
+}
+.hero>img{
+    width: 1460px;
+    height: 463px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:106px;
+    left:370px;
+    border-radius: 30px;
+    margin-top: 35px;
+    
+}
+.card-container{
+    display: flex;
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    white-space:nowrap;
+    top:655px;
+    left:370px;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+ 
+  @media (max-width: 768px) {
+    .card-container {
+      justify-content: center;
+    }
+  }
+.card>img{
+    width:480px;
+    height:400px
+}
+.menu{
+    position: absolute;
+    top:-95px;
+    left:10px;
+    color:white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.card{
+    margin-left: 20px;
+}
+.plus>img{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    background-color: #111315;
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  .search-input {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0;
+    background-color: #272a30;
+    width: 684px;
+    border-bottom: none;
+    border-right: none;
+    height: 38px;
+    border-radius: 10px;
+  }
